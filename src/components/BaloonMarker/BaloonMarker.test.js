@@ -1,4 +1,4 @@
-import { TestComponent, BaloonMarker, TestComponent2 } from '.';
+import { TestComponent, BaloonMarker} from '.';
 import { shallow } from 'enzyme'
 import React from 'react'
 

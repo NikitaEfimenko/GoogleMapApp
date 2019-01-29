@@ -89,6 +89,6 @@ describe('reducers test', () => {
 	})
 
 	it(("initial"), () => {
-		const res = rootReducer()
+		rootReducer()
 	})
 })

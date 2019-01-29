@@ -21,9 +21,8 @@
     "coverage": "react-scripts test --coveragePathIgnorePatterns src/index.js --coverage ",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "./node_modules/.bin/eslint .",
-    "precommit": "npm run lint && npm test",
-    "prepush": "npm run lint && npm test"
+    "lint": "./node_modules/.bin/eslint ./src",
+    "precommit": "npm run lint"
   },
   "eslintConfig": {
     "extends": "react-app"

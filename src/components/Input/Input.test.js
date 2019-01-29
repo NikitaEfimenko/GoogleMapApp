@@ -21,7 +21,6 @@ it('renders without crashing unconnected', () => {
 });
 
 it('renders without crashing unconnected', () => {
-	const _handle = jest.fn()
   	const component = shallow(<UnconnectInput/>)
 	//expect(_handle).toBeCalled()
 	expect(component).toMatchSnapshot()

@@ -27,4 +27,4 @@ const mapDispatchToProps = dispatch => ({
 
 const ConnectedBaloonMarker = connect(null, mapDispatchToProps)(BaloonMarker)
 
-export { ConnectedBaloonMarker as  BaloonMarker, BaloonMarker as TestComponent, InfoWindow as TestComponent2}
+export { ConnectedBaloonMarker as  BaloonMarker, BaloonMarker as TestComponent}
